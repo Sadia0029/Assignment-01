@@ -77,3 +77,34 @@ body{
     font-size: 48px;
     font-weight: 800;
 }
+/* section1 */
+.hot-deal{
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    gap: 180px;
+    padding: 100px 429px 100px 390px;
+}
+.section1-dis{
+   width: 594px;
+   
+}
+.section1-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.hot-img{
+    width: 318px;
+    height: 420px;
+    padding: 100px 0px;
+}
+.section1-content{
+    text-align: center;
+    padding-top: 230px;
+    padding-bottom: 120px;
+.btn{
+    margin-top: 40px;
+}
