@@ -1,13 +1,11 @@
 /* Common shared styles */
 body{
     font-family: 'Lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;
 }
 .header{
     background: rgba(229, 84, 115, 0.10);
     width: 1920px;
     height: 850px;
-    border: 1px solid black;
 }
 /* banner content */
 .banner content{
@@ -34,7 +32,6 @@ body{
 .banner-dis{
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
-    
     margin-bottom: 30px;
 }
 .btn-primary{
@@ -47,4 +44,36 @@ body{
     align-items: flex-start;
     gap: 10px;
     border: none;
+}
+/* footer */
+
+.footer-content{
+    width: 1922px;
+    height: 449px;
+    background: #111010;
+    text-align: center;
+    padding-top: 128px;
+}
+.copy{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top:42px;
+}
+.footer-dis{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 625px;
+    padding-left: 649px;
+    
+}
+.text-primary{
+    color: #E55473;
+}
+.footer-title{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
 }
