@@ -1,4 +1,24 @@
-*{
-    margin: 0px;
-    padding: 0px;
+/* Common shared styles */
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background: rgba(229, 84, 115, 0.10);
+}
+/* banner content */
+.banner{
+    display: flex;
+}
+.profile-picture{
+    width: 635px;
+    height: 800px;
+}
+.banner-greating{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+.banner-dis{
+
 }
