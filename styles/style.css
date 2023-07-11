@@ -119,6 +119,7 @@ body{
 }
 .insta-content{
     text-align: center;
+    margin-top: 128px;
 }
 .insta-dis{
     color: rgba(39, 39, 39, 0.60);
@@ -142,12 +143,15 @@ body{
     color: #272727;
     font-size: 40px;
     font-weight: 800;
-    color: #272727;
     width: 1450px;
    
 }
+.title-text{
+    font-weight: 800;
+    font-size: 40px;
+}
 /* latest deal */
-.divlatest-deal{
+.divlatest-deal{ 
     background-image: url("Rectangle\ 9.png");
     /* background-size:1440px ; */
     width: 1440px;
@@ -163,25 +167,41 @@ body{
     min-width: 700px;
     border: none;
 }
+.latest-deal-dis{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
 /* Featured */
 .featured{
-
+    margin-top: 160px;
+    margin-bottom: 160px;
+    
 }
 .featured-content{
-
+    text-align: center;
+    justify-content: center;
+    width: 1922px;
+    /* height: 620px; */
 }
 .featured-title{
-
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    width: 1450px;
 }
 .featured-dis{
-
+    margin-left: 663px;
 }
 .flower-img {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 5px solid black;
-    gap: 55px;
+    gap:24px;
+    width: 1922px;
+    height: 620px;
   }
 .flower1 {
     width: 310px;
@@ -233,3 +253,11 @@ body{
   .flower-name h4 {
     margin-top: 25px;
   }
+.featured-dis{
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
