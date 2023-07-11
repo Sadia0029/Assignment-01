@@ -162,15 +162,17 @@ body{
 .latest-deal{
     margin-top: 128px;
 }
-input[type="email"]::placeholder{
+.input-email {
     min-height:50px;
     min-width: 700px;
     border-radius: 8px;
     border: none;
-    padding-left: 22px;
     color: rgba(39, 39, 39, 0.6);
     font-size: 16px;
     font-weight: 400;
+}
+input[type="email"]::placeholder{
+    padding-left: 22px;
 }
 .latest-deal-dis{
     color: rgba(39, 39, 39, 0.60);
