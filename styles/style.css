@@ -248,9 +248,9 @@ body{
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;
-  }
+}
   
-  .flower-name h4 {
+.flower-name h4 {
     margin-top: 25px;
   }
 .featured-dis{
@@ -260,4 +260,32 @@ body{
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 40px;
+}
+.service{
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    margin-bottom: 128px;     
+}
+.services-image{
+    margin-top: 35px;
+}
+.service-content{
+    padding-top: 65px;
+}
+.service-title{
+    color: #272727;
+    font-size: 42px;
+    font-weight: 800;
+}
+ul > li{
+    color:#E55473;
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 28px;
+    font-style: italic;
 }
