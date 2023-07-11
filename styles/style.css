@@ -112,7 +112,8 @@ body{
 }
 /* Section2 */
 .section2{
-    padding: 128px 240px;
+    /* padding: 128px 240px; */
+    padding: 0px 240px;
     text-align: center;
 
 }
@@ -148,10 +149,11 @@ body{
 /* latest deal */
 .divlatest-deal{
     background-image: url("Rectangle\ 9.png");
+    /* background-size:1440px ; */
     width: 1440px;
     height: 449px;
     padding-top: 140px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;   
 }
 .latest-deal{
     margin-top: 128px;
